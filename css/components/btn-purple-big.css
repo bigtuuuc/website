@@ -1,0 +1,20 @@
+.btn-purple-big {
+  background-color: rgb(145, 54, 181);
+  transition: background-color 0.3s ease;
+
+  border-radius:5px;
+  padding:15px;
+  margin: 0px auto;
+
+  text-decoration: none;
+  color: rgb(240,240,240);
+  font-size:20px;
+  font-weight: bolder;
+
+  display:flex;
+  justify-content: center;
+}
+
+.btn-purple-big:hover {
+  background-color: rgb(228, 183, 229);
+}

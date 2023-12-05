@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;700&display=swap");
+
+@import url(components/banner.css);
+@import url(components/card.css);
+@import url(components/cards.css);
+@import url(components/btn-purple-big.css);
+@import url(components/btn-purple-small.css);
+@import url(components/container-big.css);
+@import url(components/container-small.css);
+@import url(components/container-form.css);
+@import url(components/responsive-design.css);
+@import url(components/form.css);
+
+body {
+	font-family: 'Source Code Pro', monospace;
+	background-color: rgb(230,230,230);
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+h1 {
+	font-weight:bolder;
+	font-size:32px;
+	text-align: center;
+}
+
+h2 {
+	font-weight:lighter;
+	font-size:26px;
+	text-align: center;
+}
+
+#text-bold {
+	font-weight: bolder;
+	font-size:26px;
+	text-align: center;
+}
+
+p {
+	text-align: center;
+}
+
+@media (max-width: 960px) {
+	.container-big {
+		width: 700px;
+	}
+}
+@media (max-width: 720px) {
+	.container-big {
+		width: 500px;
+	}
+}
+@media (max-width: 540px) {
+	.container-big {
+		width: 300px;
+	}
+
+@media (max-width: 960px) {
+	.container-small {
+		width: 700px;
+	}
+}
+@media (max-width: 720px) {
+	.container-small {
+		width: 500px;
+	}
+}
+@media (max-width: 540px) {
+	.container-small {
+		width: 300px;
+	}

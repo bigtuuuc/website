@@ -1,0 +1,29 @@
+input-group{
+	margin-bottom: 30px;
+}
+
+input, textarea{
+	width:100%;
+	padding:10px;
+	margin-top: 15px;
+	color: rgb(240,240,240);
+	background: transparent;
+	font-size: 15px;
+
+	border: 1px solid rgb(120,120,120);
+	border-radius: 3px;
+	resize:none;
+}
+
+input::placeholder{
+	font-family: 'Source Code Pro', monospace;
+}
+
+input[type="text"], input[type="email"], textarea{
+	color: rgb(120,120,120) !important;
+	font-family: 'Source Code Pro', monospace;;
+}
+
+button{
+	border: 1px;
+}

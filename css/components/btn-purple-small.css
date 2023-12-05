@@ -1,0 +1,16 @@
+.btn-purple-small {
+  background-color: rgb(145, 54, 181);
+  transition: background-color 0.3s ease;
+
+  border-radius:5px;
+  padding:10px;
+
+  color: rgb(240,240,240);
+  font-size:16px;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.btn-purple-small:hover {
+  background-color: rgb(228, 183, 229);
+}
